@@ -1,0 +1,27 @@
+body,img,header,h1,h3,h5,div,section,ul,li,img {
+    padding: 0;
+    margin: 0;
+    user-select: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    list-style: none; 
+}
+
+.inner {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.opposite {
+    flex-flow: row-reverse;
+}
+
+.to-side {
+    display: inline;
+}
